@@ -1,8 +1,8 @@
 - name: Home
   link: /
 - name: About
-  link: /code_monkey/my_jekyll_site/index-bkup.html
+  link: /my_jekyll_site/index-bkup.html
 - name: Blog
-  link: /code_monkey/blog.html
+  link: /blog.html
 - name: Bootstrap
-  link: /code_monkey/tests/test-markdown.html
+  link: /test-markdown.html
