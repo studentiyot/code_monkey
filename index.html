@@ -1,5 +1,6 @@
 ---
 # front matter tells Jekyll to process Liquid
+my_number: 5
 ---
 
 <!DOCTYPE html>
@@ -10,5 +11,7 @@
   </head>
   <body>
     <h1>{{ Hello World! }} | downcase</h1>
+
+    {{ page.my_number }}
   </body>
 </html>
