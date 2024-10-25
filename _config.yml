@@ -2,8 +2,5 @@ title: mazal studentiyot
 project: my personal profile page
 markdown: kramdown
 
-baseurl: /code_monkey
-basewebsite: /code_monkey
-url: http://studentiyot.github.io/
-website: https://studentiyot.github.io/code_monkey
+
 
