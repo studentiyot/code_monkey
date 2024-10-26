@@ -1,4 +1,8 @@
 .current {
-  // color: orange;
-  text-decoration: none;
+  color: orange;
+  text-decoration: green wavy underline;
+}
+
+.current a:hover{
+    text-decoration: none;
 }
