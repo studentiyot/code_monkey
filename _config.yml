@@ -4,3 +4,4 @@ markdown: kramdown
 
 collections:
   authors:
+  output: true
