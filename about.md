@@ -52,7 +52,7 @@ markdown file, you cannot use markdown syntax within that element's contents.
 <ul>
   {% for author in site.authors %}
     <li>
-      <a href="{{ author.url }}">{{ author.name }}</a> | /<{{ author.url }}/>
+      <a href="{{ author.url | prepend: site.baseurl }}">{{ author.name }}</a> | /<{{ author.url }}/>
       {{ author.position }}
     </li>
   {% endfor %}
