@@ -1,6 +1,9 @@
-.current a:hover {
-    color: green;
-    text-decoration: none;
-}
+a.current {
+	color: green;
+	text-decoration: none;
+    text-decoration-thickness: .05em;
+    }
 
-
+a.current:hover, a.ex1:active {
+	text-decoration: orange wavy underline;
+    }
