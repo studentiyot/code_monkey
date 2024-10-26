@@ -3,7 +3,7 @@
   {% for item in site.data.navigation %}
   <a href="{{ item.link | prepend: site.baseurl }}"
   	{% if page.url == item.link %} class="current"{% endif %}>
-  	{% elseif page.url !== item.link %} class="not_current"{% endelseif %}>
+  	{% else page.url !== item.link %} class="not_current"{% endelse %}>
   {{ item.name }}</a>
   {% endfor %}
 </nav>
