@@ -1,5 +1,4 @@
 ---
-layout: author
 short_name: mazal
 name: mazal bohbot berrie
 position: Ring leader
